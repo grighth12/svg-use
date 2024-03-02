@@ -1,4 +1,4 @@
-import reactLogo from "./assets/react.svg";
+import reactLogo from "../public/asset/react.svg";
 // import ViteLogo from "/vite.svg?react";
 import "./App.css";
 
