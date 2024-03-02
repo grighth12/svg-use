@@ -8,13 +8,13 @@ function App() {
       <div>
         {/* <ViteLogo /> */}
 
-        <img src="/asset/react.svg" />
-        <svg>
-          {/* TODO: xlink를 넣어본다. */}
-          {/* <use href={`${reactLogo}#react`} /> */}
-          <use href={`/asset/react.svg#react`} />
-        </svg>
-        {/* <ReactIcon /> */}
+        {/* <img src="/asset/react.svg" /> */}
+
+        <div style={{ color: "red" }}>
+          <svg viewBox="0 0 40 40">
+            <use href={`/asset/photo-upload.svg#photo-upload`} />
+          </svg>
+        </div>
       </div>
     </>
   );
